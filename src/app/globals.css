@@ -20,6 +20,16 @@ body {
     text-align: center;
 }
 
+#tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -200; /* Keep it behind other content */
+  }
+  
+
 .home{
     display: flex;
     align-items: center;
