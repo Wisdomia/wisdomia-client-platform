@@ -32,39 +32,9 @@ body {
   
 
 .home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 4.2fr 1fr;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
-
-.home >h1{
-    font-size: 2rem;
-    font-size: clamp(2rem, 1.8rem + 1vw, 3rem);
-}
-
-.home > p{
-    font-size: 1.5rem;
-    font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
-}
-
-.smallToBig{
-    border-bottom: 1px solid white;
-    padding: 2rem;
-}
-
-.customButton{
-    background-color: black;
-    color: white;
-    padding: 1rem 3rem;
-    border: 1px solid white;
-    cursor: pointer;
-    font-size: 1rem;
-    font-size: clamp(1rem, 0.96rem + 0.19999999999999996vw, 1.2rem);
-}
-
-.customButton:hover{
-    background-color: white;
-    color: black;
-}

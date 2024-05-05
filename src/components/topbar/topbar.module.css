@@ -1,0 +1,10 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topbar > span{
+    font-size: 3rem;
+}
